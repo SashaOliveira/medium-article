@@ -1,0 +1,85 @@
+body {
+  background-color: ;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.banner {
+  background-image: url("https://i0.wp.com/www.toonsmag.com/wp-content/uploads/2023/08/IMG_4401.jpeg?fit=758%2C395&ssl=1");
+  background-size: cover;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: black;
+  height: 300px;
+  width: 700px;   /* This sets the width */
+  margin: 50px auto; /* This automatically sets left/right margins */
+  display: block;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.banner p {
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 50px auto; /* This automatically sets left/right margins */
+  display: block;
+}
+
+.title {
+  color: grey;
+  font-weight: 100;
+}
+
+.link {
+  color: #636363;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.link:hover {
+  background: rgb(182, 214, 209);
+}
+
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
